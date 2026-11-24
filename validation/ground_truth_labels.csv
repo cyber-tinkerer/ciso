@@ -1,0 +1,216 @@
+name,segment,label_confidence
+Cyera,ai_for_security,low
+Abnormal AI,ai_for_security,high
+Kong,adjacent,high
+Bespin Global,adjacent,high
+Netomi,out_of_scope,high
+Obsidian Security,security_for_ai,high
+Exaforce,ai_for_security,high
+Zenity,security_for_ai,high
+HackerOne,ai_for_security,high
+HiddenLayer,security_for_ai,high
+Reco,security_for_ai,high
+Adaptive Security,ai_for_security,low
+Noma Security,security_for_ai,high
+Kai,ai_for_security,high
+Sweet Security,adjacent,high
+ZeroEyes,adjacent,low
+Inforcer,adjacent,high
+Neo Security,security_for_ai,high
+Xage Security,adjacent,high
+Sonrai Security,adjacent,high
+Harmonic Security,security_for_ai,high
+Remedio,ai_for_security,high
+Aurascape,security_for_ai,high
+Lasso Security,security_for_ai,high
+Cranium AI,security_for_ai,high
+Dropzone AI,ai_for_security,high
+Tigera,security_for_ai,low
+Mate,ai_for_security,high
+Bay,security_for_ai,high
+AIR Security,security_for_ai,high
+RealAI,security_for_ai,high
+Mindgard,security_for_ai,high
+Geordie AI,ai_governance,high
+Credo AI,ai_governance,high
+CLUSH,adjacent,high
+Gray Swan,security_for_ai,high
+Mave,ai_for_security,high
+JetStream Security,security_for_ai,high
+Rad Security,ai_for_security,high
+Tuskira,ai_for_security,high
+Opsin,security_for_ai,high
+Method Security,security_for_ai,high
+Speakeasy,security_for_ai,high
+DeepKeep,security_for_ai,high
+NeuralTrust,security_for_ai,high
+LightBeam.ai,ai_governance,high
+Tolmo,ai_for_security,low
+Optical Standard Technology,out_of_scope,high
+Rencore,ai_governance,high
+Impart Security,security_for_ai,high
+Modulos,ai_governance,high
+BlackFog,ai_for_security,low
+Lumia Security,security_for_ai,high
+Outerlimit,security_for_ai,high
+CARPL.ai,out_of_scope,high
+ModelOp,ai_governance,high
+SpeedyCloud,adjacent,high
+Barndoor AI,security_for_ai,high
+Kosli,ai_governance,high
+Monitaur,ai_governance,high
+Trent AI,ai_for_security,high
+Arcjet,security_for_ai,low
+Metano,security_for_ai,high
+Polygraf,security_for_ai,low
+Forest,out_of_scope,high
+Vero Security,security_for_ai,high
+2021.AI,ai_governance,high
+Nexchain,out_of_scope,high
+Helmet Security,security_for_ai,high
+Right-Hand Cybersecurity,ai_for_security,high
+FinbotsAI,ai_governance,high
+Peridot,security_for_ai,high
+Cranium,security_for_ai,high
+Aim Intelligence,security_for_ai,high
+ValidMind,ai_governance,high
+Arrakis Security,ai_for_security,high
+LuminosAI,ai_governance,high
+Verax AI,security_for_ai,high
+Strix,ai_for_security,high
+Velatir,ai_governance,high
+Kewei Robotics,adjacent,low
+Capsule Security,security_for_ai,high
+Willow,security_for_ai,high
+Sai Security Printers,out_of_scope,high
+Kriptos,ai_governance,high
+NineID,ai_for_security,high
+ALIGNMT AI,ai_governance,high
+Watchful,security_for_ai,low
+CodeAnt AI,ai_for_security,high
+31 CONCEPT,adjacent,low
+Embed Security,ai_for_security,high
+Pinta AI,security_for_ai,high
+Userfront,ai_governance,high
+DAXA,security_for_ai,high
+OpenBox AI,ai_governance,high
+Realm Labs,security_for_ai,high
+Unosecur,security_for_ai,high
+Firetail,security_for_ai,high
+OnboardAI,ai_governance,high
+Xygeni,ai_for_security,high
+Dam Secure,ai_for_security,low
+Enzai,ai_governance,high
+Levo.ai,security_for_ai,high
+Preamble,security_for_ai,high
+BotGauge,security_for_ai,high
+Mycroft,ai_for_security,high
+Anvaya Insights,out_of_scope,high
+Asenion,ai_governance,high
+PromptArmor,security_for_ai,high
+RiskQ,adjacent,high
+Tideshiftai,ai_governance,high
+Verapath,security_for_ai,high
+HoundDog.ai,adjacent,high
+IronCore Labs,security_for_ai,high
+Corridor Platforms,ai_governance,high
+TigerByte Cyber,security_for_ai,low
+Ossprey Security,ai_for_security,high
+Aeye Security Lab,adjacent,high
+SunnyData,adjacent,high
+Endeem,security_for_ai,high
+Vidoc Security Lab,adjacent,high
+TrustWorks,ai_governance,high
+Zertia,ai_governance,high
+HAIEC,ai_governance,high
+Saidot,ai_governance,high
+Vivox AI,ai_for_security,low
+nolabs,security_for_ai,high
+Skyld,ai_for_security,high
+Impact AI,ai_governance,high
+Produktiv,ai_governance,high
+Zaun,security_for_ai,high
+Certus Core,out_of_scope,high
+DAIKI,ai_governance,high
+Verno Labs,security_for_ai,high
+Atrewwise,ai_governance,high
+Keyboard,security_for_ai,high
+Iroun & Company,out_of_scope,high
+Unloq AI,out_of_scope,high
+EVIDION.pl,ai_for_security,high
+Authentrics.ai,ai_governance,high
+Mace Ai,security_for_ai,high
+AdaptMMS,out_of_scope,high
+Lexic.ai,ai_governance,high
+DDAT Holdings,out_of_scope,high
+Regolyn,ai_governance,high
+Preemptics,security_for_ai,high
+Orvanta,ai_for_security,high
+QueryLift,adjacent,high
+StealCut,security_for_ai,low
+MindFort AI,ai_for_security,high
+Silmaril,security_for_ai,high
+Regbase,out_of_scope,high
+PoliRail,security_for_ai,high
+Secure AI LLC,security_for_ai,high
+Veriom,security_for_ai,high
+Asher Informatics,ai_governance,high
+Magier AI,ai_governance,high
+Indora Labs,security_for_ai,high
+Cognitive View,ai_governance,high
+Cynsta AI,security_for_ai,high
+Graph Research Labs,adjacent,high
+AISafe Labs,ai_for_security,high
+Kastra AI,security_for_ai,high
+ChillStack,adjacent,high
+Nuvoryn,out_of_scope,high
+APERION,ai_governance,high
+AOCyber,adjacent,high
+Alpha Q - Algoritmus,out_of_scope,high
+ZYTRA TECHSOLUTIONS PRIVATE LIMITED,ai_governance,high
+Mangosta,ai_for_security,high
+GotYu,out_of_scope,high
+SARTI - Striker AI Research Tech Inc,out_of_scope,high
+Zenolabs AI,ai_governance,high
+Uindow,adjacent,low
+Dheemai Inc,security_for_ai,low
+ArcadianAI,adjacent,high
+Metaworkers.AI,out_of_scope,high
+Adeptiv AI,ai_governance,high
+AIVault,adjacent,high
+SYNCYR,ai_governance,high
+Foresee Security,ai_for_security,high
+Indiesecurity,ai_for_security,high
+KB-eye,adjacent,high
+DECTRAX,adjacent,high
+CyberX - The Ethical Hacking Services,adjacent,high
+MantaRAI,ai_governance,high
+Mileva Security Labs,security_for_ai,high
+YourFinestOut | IDC™,out_of_scope,high
+CloudEagle.ai,adjacent,low
+TrendAI,ai_for_security,high
+Blindsight,security_for_ai,high
+AIBound,security_for_ai,high
+QYNTARI,ai_governance,high
+Kihan,ai_governance,high
+EPC Group,adjacent,low
+PointGuard AI,security_for_ai,high
+Autnhive,security_for_ai,high
+EBI Labs,out_of_scope,high
+Istreno,out_of_scope,high
+"FERZ, Inc.",security_for_ai,low
+Quantinuum,adjacent,high
+Aura,ai_for_security,high
+Yubico,adjacent,high
+Microsoft,adjacent,low
+Zscaler,adjacent,high
+IBM,out_of_scope,high
+ServiceNow,adjacent,high
+Gen,adjacent,high
+Quantum Cyber,ai_for_security,high
+SEALRIGOBERTO GONZALEZ DE JESUS,adjacent,high
+Akamai,adjacent,high
+Experian,out_of_scope,high
+Nokia,out_of_scope,high
+Rubrik,adjacent,high
+eMudhra,adjacent,high

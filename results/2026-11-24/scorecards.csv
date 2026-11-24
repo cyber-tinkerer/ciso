@@ -1,0 +1,216 @@
+name,segment,in_scope,capability_index,breadth_pct,assurance_pct,framework_coverage_pct,confidence,maturity_tier,age_years,capabilities,owasp_llm_2025,nist_ai_rmf,nist_csf_2,data_quality_flags
+Cyera,ai_for_security,True,22.4,14.3,25.0,33.3,medium,scale_up,5,ai_data_protection;ai_governance_compliance,LLM02;LLM08,Govern;Map;Manage,Govern;Protect,
+Abnormal AI,ai_for_security,True,22.4,14.3,25.0,33.3,medium,scale_up,8,ai_threat_detection,,,Protect;Detect,
+Kong,ai_governance,True,30.0,25.0,25.0,50.0,medium,scale_up,9,ai_governance_compliance,,Govern;Map,Govern,
+Bespin Global,security_for_ai,True,0.0,0.0,0.0,0.0,low,scale_up,11,,,,,in_scope_but_no_specific_capability_claimed
+Netomi,out_of_scope,False,,,,,n/a,growth,10,,,,,
+Obsidian Security,security_for_ai,True,0.0,0.0,0.0,0.0,low,growth,9,ai_threat_detection,,,Protect;Detect,in_scope_but_no_specific_capability_claimed
+Exaforce,ai_for_security,True,22.4,14.3,25.0,33.3,medium,growth,3,autonomous_soc,,,Detect;Respond,
+Zenity,security_for_ai,True,22.0,20.0,25.0,20.0,medium,growth,5,agent_security;ai_governance_compliance,LLM01;LLM06,Govern;Map;Manage,Govern,
+HackerOne,ai_for_security,True,22.4,14.3,25.0,33.3,medium,growth,14,exposure_management,,,Identify;Protect,
+HiddenLayer,security_for_ai,True,0.0,0.0,0.0,0.0,low,growth,4,ai_threat_detection,,,Protect;Detect,in_scope_but_no_specific_capability_claimed
+Reco,security_for_ai,True,22.0,20.0,25.0,20.0,medium,growth,6,agent_security;ai_identity_access,LLM01;LLM06,Govern;Manage,Protect,
+Adaptive Security,ai_for_security,True,25.7,14.3,25.0,50.0,medium,growth,2,ai_governance_compliance;ai_threat_detection,,Govern;Map,Govern;Protect;Detect,
+Noma Security,security_for_ai,True,22.0,20.0,25.0,20.0,medium,growth,3,agent_security;ai_governance_compliance,LLM01;LLM06,Govern;Map;Manage,Govern,
+Kai,ai_for_security,True,0.0,0.0,0.0,0.0,low,growth,2,agent_security,LLM01;LLM06,Manage,,in_scope_but_no_specific_capability_claimed
+Sweet Security,adjacent,False,,,,,n/a,growth,3,autonomous_soc,,,Detect;Respond,
+ZeroEyes,adjacent,False,,,,,n/a,growth,8,,,,,
+Inforcer,out_of_scope,False,,,,,n/a,growth,4,ai_governance_compliance,,Govern;Map,Govern,
+Neo Security,security_for_ai,True,18.0,10.0,25.0,20.0,medium,growth,1,agent_security,LLM01;LLM06,Manage,,
+Xage Security,adjacent,False,,,,,n/a,growth,9,,,,,
+Sonrai Security,adjacent,False,,,,,n/a,growth,9,,,,,
+Harmonic Security,security_for_ai,True,22.0,20.0,25.0,20.0,medium,growth,3,ai_discovery_posture;ai_governance_compliance,LLM03;LLM06,Govern;Map,Govern,
+Remedio,ai_for_security,True,22.4,14.3,25.0,33.3,medium,growth,7,exposure_management,,,Identify;Protect,
+Aurascape,security_for_ai,True,0.0,0.0,0.0,0.0,low,growth,2,,,,,in_scope_but_no_specific_capability_claimed
+Lasso Security,security_for_ai,True,0.0,0.0,0.0,0.0,low,growth,3,,,,,in_scope_but_no_specific_capability_claimed
+Cranium AI,security_for_ai,True,14.0,10.0,25.0,0.0,medium,growth,3,ai_governance_compliance,,Govern;Map,Govern,
+Dropzone AI,ai_for_security,True,22.4,14.3,25.0,33.3,medium,growth,3,agent_security;autonomous_soc,LLM01;LLM06,Manage,Detect;Respond,
+Tigera,out_of_scope,False,,,,,n/a,growth,10,ai_discovery_posture,LLM03;LLM06,Govern;Map,,
+Mate,ai_for_security,True,22.4,14.3,25.0,33.3,medium,growth,1,autonomous_soc,,,Detect;Respond,
+Bay,security_for_ai,True,22.0,20.0,25.0,20.0,medium,growth,0,ai_discovery_posture;ai_governance_compliance,LLM03;LLM06,Govern;Map,Govern,
+AIR Security,security_for_ai,True,18.0,10.0,25.0,20.0,medium,growth,0,agent_security,LLM01;LLM06,Manage,,
+RealAI,security_for_ai,True,18.0,10.0,25.0,20.0,medium,early,8,ai_data_protection,LLM02;LLM08,Manage,Protect,
+Mindgard,security_for_ai,True,22.0,10.0,25.0,40.0,medium,early,4,ai_red_teaming;exposure_management,LLM01;LLM04;LLM07;LLM09,Measure,Identify;Protect,
+Geordie AI,ai_governance,True,45.0,50.0,25.0,75.0,medium,early,1,ai_discovery_posture;agent_security;ai_governance_compliance,LLM01;LLM03;LLM06,Govern;Map;Manage,Govern,
+Credo AI,ai_governance,True,35.0,25.0,25.0,75.0,medium,early,6,agent_security;ai_governance_compliance,LLM01;LLM06,Govern;Map;Manage,Govern,
+CLUSH,out_of_scope,False,,,,,n/a,early,11,,,,,
+Gray Swan,security_for_ai,True,0.0,0.0,0.0,0.0,low,early,3,,,,,in_scope_but_no_specific_capability_claimed
+Mave,ai_for_security,True,31.4,28.6,25.0,50.0,medium,early,1,autonomous_soc;ai_threat_detection,,,Protect;Detect;Respond,
+JetStream Security,ai_governance,True,30.0,25.0,25.0,50.0,medium,early,1,ai_governance_compliance,,Govern;Map,Govern,
+Rad Security,ai_for_security,True,25.7,14.3,25.0,50.0,medium,early,5,ai_governance_compliance;autonomous_soc,,Govern;Map,Govern;Detect;Respond,
+Tuskira,ai_for_security,True,0.0,0.0,0.0,0.0,low,early,2,agent_security,LLM01;LLM06,Manage,,in_scope_but_no_specific_capability_claimed
+Opsin,security_for_ai,True,18.0,10.0,25.0,20.0,medium,early,2,agent_security,LLM01;LLM06,Manage,,
+Method Security,security_for_ai,True,28.0,20.0,25.0,50.0,medium,early,3,ai_red_teaming;agent_security,LLM01;LLM04;LLM06;LLM07;LLM09,Measure;Manage,,
+Speakeasy,security_for_ai,True,14.0,10.0,25.0,0.0,medium,early,4,ai_governance_compliance,,Govern;Map,Govern,
+DeepKeep,security_for_ai,True,0.0,0.0,0.0,0.0,low,early,5,,,,,in_scope_but_no_specific_capability_claimed
+NeuralTrust,security_for_ai,True,36.0,30.0,25.0,70.0,medium,early,2,ai_runtime_protection;agent_security;ai_data_protection,LLM01;LLM02;LLM05;LLM06;LLM07;LLM08;LLM09,Manage,Protect,
+LightBeam.ai,ai_governance,True,35.0,25.0,25.0,75.0,medium,early,6,ai_data_protection;ai_governance_compliance,LLM02;LLM08,Govern;Map;Manage,Govern;Protect,
+Tolmo,security_for_ai,True,0.0,0.0,0.0,0.0,low,early,0,ai_appsec,,,Identify;Protect,in_scope_but_no_specific_capability_claimed
+Optical Standard Technology,out_of_scope,False,,,,,n/a,early,4,,,,,
+Rencore,ai_governance,True,30.0,25.0,25.0,50.0,medium,early,13,ai_governance_compliance,,Govern;Map,Govern,
+Impart Security,security_for_ai,True,24.0,10.0,25.0,50.0,medium,early,5,ai_runtime_protection;ai_appsec,LLM01;LLM02;LLM05;LLM07;LLM09,Manage,Identify;Protect,
+Modulos,ai_governance,True,30.0,25.0,25.0,50.0,medium,early,8,ai_governance_compliance,,Govern;Map,Govern,description_too_short
+BlackFog,security_for_ai,True,18.0,10.0,25.0,20.0,medium,early,11,ai_data_protection;ai_threat_detection,LLM02;LLM08,Manage,Protect;Detect,
+Lumia Security,security_for_ai,True,14.0,10.0,25.0,0.0,medium,early,1,ai_governance_compliance,,Govern;Map,Govern,
+Outerlimit,security_for_ai,True,26.0,30.0,25.0,20.0,medium,early,1,agent_security;ai_identity_access;ai_governance_compliance,LLM01;LLM06,Govern;Map;Manage,Govern;Protect,
+CARPL.ai,out_of_scope,False,,,,,n/a,early,8,,,,,
+ModelOp,ai_governance,True,30.0,25.0,25.0,50.0,medium,early,8,ai_governance_compliance,,Govern;Map,Govern,
+SpeedyCloud,security_for_ai,True,0.0,0.0,0.0,0.0,low,growth,14,,,,,in_scope_but_no_specific_capability_claimed
+Barndoor AI,ai_governance,True,55.0,75.0,25.0,75.0,medium,early,2,ai_discovery_posture;agent_security;ai_identity_access;ai_governance_compliance,LLM01;LLM03;LLM06,Govern;Map;Manage,Govern;Protect,
+Kosli,ai_governance,True,30.0,25.0,25.0,50.0,medium,early,7,ai_governance_compliance;ai_appsec,,Govern;Map,Govern;Identify;Protect,
+Monitaur,ai_governance,True,30.0,25.0,25.0,50.0,medium,early,7,ai_governance_compliance,,Govern;Map,Govern,
+Trent AI,security_for_ai,True,18.0,10.0,25.0,20.0,medium,early,1,agent_security;ai_appsec,LLM01;LLM06,Manage,Identify;Protect,
+Arcjet,adjacent,False,,,,,n/a,early,3,ai_runtime_protection,LLM01;LLM02;LLM05;LLM07;LLM09,Manage,,
+Metano,security_for_ai,True,18.0,10.0,25.0,20.0,low,early,,agent_security,LLM01;LLM06,Manage,,missing_founded_year;missing_employee_count
+Polygraf,security_for_ai,True,14.0,10.0,25.0,0.0,medium,early,5,ai_governance_compliance,,Govern;Map,Govern,
+Forest,adjacent,False,,,,,n/a,early,9,ai_governance_compliance,,Govern;Map,Govern,
+Vero Security,ai_for_security,True,0.0,0.0,0.0,0.0,low,early,1,,,,,in_scope_but_no_specific_capability_claimed
+2021.AI,ai_governance,True,30.0,25.0,25.0,50.0,medium,growth,10,ai_governance_compliance,,Govern;Map,Govern,
+Nexchain,adjacent,False,,,,,n/a,early,2,,,,,
+Helmet Security,security_for_ai,True,0.0,0.0,0.0,0.0,low,early,2,,,,,in_scope_but_no_specific_capability_claimed
+Right-Hand Cybersecurity,ai_for_security,True,22.4,14.3,25.0,33.3,medium,early,7,agent_security;ai_threat_detection,LLM01;LLM06,Manage,Protect;Detect,
+FinbotsAI,ai_governance,True,30.0,25.0,25.0,50.0,medium,early,9,ai_governance_compliance,,Govern;Map,Govern,
+Peridot,ai_governance,True,40.0,50.0,25.0,50.0,medium,early,1,ai_discovery_posture;ai_governance_compliance,LLM03;LLM06,Govern;Map,Govern,
+Cranium,security_for_ai,True,0.0,0.0,0.0,0.0,low,early,4,,,,,in_scope_but_no_specific_capability_claimed
+Aim Intelligence,security_for_ai,True,30.0,20.0,25.0,60.0,medium,early,2,ai_runtime_protection;ai_red_teaming,LLM01;LLM02;LLM04;LLM05;LLM07;LLM09,Measure;Manage,,
+ValidMind,ai_governance,True,30.0,25.0,25.0,50.0,medium,early,4,ai_governance_compliance,,Govern;Map,Govern,
+Arrakis Security,ai_for_security,True,3.3,0.0,0.0,16.7,low,early,0,agent_security;ai_governance_compliance,LLM01;LLM06,Govern;Map;Manage,Govern,in_scope_but_no_specific_capability_claimed
+LuminosAI,ai_governance,True,30.0,25.0,25.0,50.0,medium,early,4,ai_governance_compliance,,Govern;Map,Govern,
+Verax AI,security_for_ai,True,14.0,10.0,25.0,0.0,medium,early,3,ai_governance_compliance,,Govern;Map,Govern,
+Strix,ai_for_security,True,28.1,28.6,25.0,33.3,medium,early,1,agent_security;ai_offensive_security;ai_appsec,LLM01;LLM06,Manage,Identify;Protect,
+Velatir,ai_governance,True,40.0,50.0,25.0,50.0,medium,early,1,ai_discovery_posture;ai_governance_compliance,LLM03;LLM06,Govern;Map,Govern,
+Kewei Robotics,adjacent,False,,,,,n/a,early,8,,,,,missing_employee_count
+Capsule Security,security_for_ai,True,36.0,30.0,25.0,70.0,medium,early,1,ai_runtime_protection;agent_security;ai_data_protection;exposure_management,LLM01;LLM02;LLM05;LLM06;LLM07;LLM08;LLM09,Manage,Identify;Protect,
+Willow,adjacent,False,,,,,n/a,early,1,ai_discovery_posture,LLM03;LLM06,Govern;Map,,
+Sai Security Printers,adjacent,False,,,,,n/a,early,33,,,,,
+Kriptos,ai_governance,True,30.0,25.0,25.0,50.0,medium,early,8,ai_governance_compliance,,Govern;Map,Govern,
+NineID,ai_for_security,True,3.3,0.0,0.0,16.7,low,early,6,ai_governance_compliance,,Govern;Map,Govern,in_scope_but_no_specific_capability_claimed
+ALIGNMT AI,ai_governance,True,30.0,25.0,25.0,50.0,medium,early,3,ai_governance_compliance,,Govern;Map,Govern,
+Watchful,security_for_ai,True,0.0,0.0,0.0,0.0,low,early,3,,,,,in_scope_but_no_specific_capability_claimed
+CodeAnt AI,ai_for_security,True,19.0,14.3,25.0,16.7,medium,early,3,ai_offensive_security,,,Identify,
+31 CONCEPT,out_of_scope,False,,,,,n/a,early,2,,,,,
+Embed Security,ai_for_security,True,22.4,14.3,25.0,33.3,medium,early,2,autonomous_soc,,,Detect;Respond,
+Pinta AI,security_for_ai,True,22.0,20.0,25.0,20.0,medium,early,1,agent_security;ai_governance_compliance,LLM01;LLM06,Govern;Map;Manage,Govern,
+Userfront,ai_governance,True,30.0,25.0,25.0,50.0,medium,early,6,ai_governance_compliance,,Govern;Map,Govern,
+DAXA,out_of_scope,False,,,,,n/a,early,5,,,,,
+OpenBox AI,ai_governance,True,45.0,50.0,25.0,75.0,medium,early,1,agent_security;ai_identity_access;ai_governance_compliance,LLM01;LLM06,Govern;Map;Manage,Govern;Protect,
+Realm Labs,security_for_ai,True,0.0,0.0,0.0,0.0,low,early,3,,,,,in_scope_but_no_specific_capability_claimed
+Unosecur,security_for_ai,True,26.0,30.0,25.0,20.0,medium,early,5,agent_security;ai_identity_access;ai_governance_compliance,LLM01;LLM06,Govern;Map;Manage,Govern;Protect,
+Firetail,security_for_ai,True,0.0,0.0,0.0,0.0,low,early,5,ai_appsec,,,Identify;Protect,in_scope_but_no_specific_capability_claimed
+OnboardAI,ai_governance,True,30.0,25.0,25.0,50.0,medium,early,,ai_governance_compliance,,Govern;Map,Govern,missing_founded_year
+Xygeni,ai_for_security,True,22.4,14.3,25.0,33.3,medium,early,5,ai_appsec,,,Identify;Protect,
+Dam Secure,security_for_ai,True,18.0,10.0,25.0,20.0,medium,nascent,1,agent_security;ai_appsec,LLM01;LLM06,Manage,Identify;Protect,
+Enzai,ai_governance,True,30.0,25.0,25.0,50.0,medium,early,5,ai_governance_compliance,,Govern;Map,Govern,
+Levo.ai,security_for_ai,True,24.0,10.0,25.0,50.0,medium,early,5,ai_runtime_protection;ai_appsec,LLM01;LLM02;LLM05;LLM07;LLM09,Manage,Identify;Protect,
+Preamble,ai_governance,True,30.0,25.0,25.0,50.0,medium,nascent,6,ai_governance_compliance,,Govern;Map,Govern,description_too_short
+BotGauge,security_for_ai,True,28.0,20.0,25.0,50.0,medium,early,2,ai_red_teaming;agent_security,LLM01;LLM04;LLM06;LLM07;LLM09,Measure;Manage,,
+Mycroft,ai_for_security,True,25.7,14.3,25.0,50.0,medium,early,2,agent_security;ai_governance_compliance;autonomous_soc,LLM01;LLM06,Govern;Map;Manage,Govern;Detect;Respond,
+Anvaya Insights,out_of_scope,False,,,,,n/a,early,1,,,,,
+Asenion,security_for_ai,True,14.0,10.0,25.0,0.0,medium,early,6,ai_governance_compliance,,Govern;Map,Govern,
+PromptArmor,security_for_ai,True,14.0,10.0,25.0,0.0,medium,early,3,ai_governance_compliance,,Govern;Map,Govern,
+RiskQ,adjacent,False,,,,,n/a,early,8,ai_governance_compliance;exposure_management,,Govern;Map,Govern;Identify;Protect,
+Tideshiftai,ai_governance,True,40.0,50.0,25.0,50.0,medium,early,0,ai_discovery_posture;ai_governance_compliance,LLM03;LLM06,Govern;Map,Govern,
+Verapath,ai_governance,True,30.0,25.0,25.0,50.0,medium,early,3,ai_governance_compliance,,Govern;Map,Govern,
+HoundDog.ai,out_of_scope,False,,,,,n/a,nascent,3,agent_security;ai_data_protection;ai_appsec,LLM01;LLM02;LLM06;LLM08,Manage,Identify;Protect,
+IronCore Labs,security_for_ai,True,18.0,10.0,25.0,20.0,medium,early,11,ai_data_protection,LLM02;LLM08,Manage,Protect,
+Corridor Platforms,ai_governance,True,45.0,50.0,25.0,75.0,medium,early,8,ai_red_teaming;ai_governance_compliance,LLM01;LLM04;LLM07;LLM09,Govern;Map;Measure,Govern,
+TigerByte Cyber,security_for_ai,True,0.0,0.0,0.0,0.0,low,nascent,10,,,,,in_scope_but_no_specific_capability_claimed
+Ossprey Security,ai_for_security,True,22.4,14.3,25.0,33.3,medium,nascent,2,model_supply_chain;ai_threat_detection,LLM03;LLM04,Map;Measure,Protect;Detect,
+Aeye Security Lab,security_for_ai,True,0.0,0.0,0.0,0.0,low,early,7,ai_appsec;exposure_management,,,Identify;Protect,in_scope_but_no_specific_capability_claimed
+SunnyData,ai_governance,True,30.0,25.0,25.0,50.0,medium,growth,2,ai_governance_compliance,,Govern;Map,Govern,
+Endeem,security_for_ai,True,22.0,20.0,25.0,20.0,medium,nascent,0,agent_security;ai_identity_access,LLM01;LLM06,Govern;Manage,Protect,
+Vidoc Security Lab,adjacent,False,,,,,n/a,early,4,,,,,description_too_short
+TrustWorks,ai_governance,True,35.0,25.0,25.0,75.0,medium,early,6,ai_data_protection;ai_governance_compliance,LLM02;LLM08,Govern;Map;Manage,Govern;Protect,
+Zertia,ai_governance,True,30.0,25.0,25.0,50.0,medium,early,2,ai_governance_compliance,,Govern;Map,Govern,
+HAIEC,out_of_scope,False,,,,,n/a,early,2,,,,,
+Saidot,ai_governance,True,30.0,25.0,25.0,50.0,medium,early,8,ai_governance_compliance,,Govern;Map,Govern,
+Vivox AI,out_of_scope,False,,,,,n/a,early,2,agent_security;autonomous_soc,LLM01;LLM06,Manage,Detect;Respond,
+nolabs,security_for_ai,True,18.0,10.0,25.0,20.0,medium,nascent,1,agent_security,LLM01;LLM06,Manage,,
+Skyld,ai_for_security,True,22.4,14.3,25.0,33.3,medium,nascent,5,ai_threat_detection,,,Protect;Detect,
+Impact AI,ai_governance,True,30.0,25.0,25.0,50.0,medium,nascent,2,ai_governance_compliance,,Govern;Map,Govern,
+Produktiv,ai_governance,True,30.0,25.0,25.0,50.0,medium,early,2,ai_governance_compliance,,Govern;Map,Govern,
+Zaun,security_for_ai,True,0.0,0.0,0.0,0.0,low,early,2,,,,,description_too_short;in_scope_but_no_specific_capability_claimed
+Certus Core,out_of_scope,False,,,,,n/a,nascent,5,agent_security,LLM01;LLM06,Manage,,
+DAIKI,ai_governance,True,30.0,25.0,25.0,50.0,medium,early,3,ai_governance_compliance,,Govern;Map,Govern,
+Verno Labs,security_for_ai,True,28.0,20.0,25.0,50.0,medium,nascent,1,ai_red_teaming;agent_security;ai_offensive_security,LLM01;LLM04;LLM06;LLM07;LLM09,Measure;Manage,Identify,description_too_short
+Atrewwise,ai_governance,True,30.0,25.0,25.0,50.0,medium,early,1,ai_governance_compliance,,Govern;Map,Govern,
+Keyboard,ai_governance,True,45.0,50.0,25.0,75.0,medium,nascent,1,ai_identity_access;ai_governance_compliance,LLM06,Govern;Map;Manage,Govern;Protect,
+Iroun & Company,out_of_scope,False,,,,,n/a,nascent,2,,,,,
+Unloq AI,out_of_scope,False,,,,,n/a,nascent,2,ai_governance_compliance,,Govern;Map,Govern,
+EVIDION.pl,ai_for_security,True,3.3,0.0,0.0,16.7,low,nascent,0,ai_governance_compliance,,Govern;Map,Govern,in_scope_but_no_specific_capability_claimed
+Authentrics.ai,ai_governance,True,30.0,25.0,25.0,50.0,medium,nascent,3,ai_governance_compliance,,Govern;Map,Govern,
+Mace Ai,security_for_ai,True,28.0,20.0,25.0,50.0,medium,early,0,ai_red_teaming;agent_security,LLM01;LLM04;LLM06;LLM07;LLM09,Measure;Manage,,
+AdaptMMS,out_of_scope,False,,,,,n/a,early,6,,,,,
+Lexic.ai,ai_governance,True,35.0,25.0,25.0,75.0,medium,early,5,agent_security;ai_governance_compliance,LLM01;LLM06,Govern;Map;Manage,Govern,
+DDAT Holdings,ai_governance,True,30.0,25.0,25.0,50.0,medium,nascent,1,ai_governance_compliance,,Govern;Map,Govern,
+Regolyn,ai_governance,True,30.0,25.0,25.0,50.0,medium,early,2,ai_governance_compliance,,Govern;Map,Govern,
+Preemptics,security_for_ai,True,26.0,20.0,25.0,40.0,low,nascent,,ai_red_teaming;ai_governance_compliance,LLM01;LLM04;LLM07;LLM09,Govern;Map;Measure,Govern,missing_founded_year;missing_employee_count
+Orvanta,ai_for_security,True,22.4,14.3,25.0,33.3,medium,early,2,ai_appsec,,,Identify;Protect,
+QueryLift,security_for_ai,True,18.0,10.0,25.0,20.0,medium,nascent,1,ai_discovery_posture,LLM03;LLM06,Govern;Map,,
+StealCut,security_for_ai,True,16.0,10.0,25.0,10.0,medium,nascent,1,deepfake_content_integrity,LLM09,Manage,,
+MindFort AI,ai_for_security,True,19.0,14.3,25.0,16.7,medium,nascent,1,agent_security;ai_offensive_security,LLM01;LLM06,Manage,Identify,
+Silmaril,security_for_ai,True,24.0,10.0,25.0,50.0,medium,nascent,0,ai_runtime_protection,LLM01;LLM02;LLM05;LLM07;LLM09,Manage,,
+Regbase,ai_governance,True,30.0,25.0,25.0,50.0,medium,nascent,0,ai_governance_compliance,,Govern;Map,Govern,
+PoliRail,security_for_ai,True,18.0,10.0,25.0,20.0,medium,nascent,0,agent_security,LLM01;LLM06,Manage,,description_too_short
+Secure AI LLC,security_for_ai,True,28.0,20.0,25.0,50.0,medium,early,3,ai_runtime_protection;ai_governance_compliance,LLM01;LLM02;LLM05;LLM07;LLM09,Govern;Map;Manage,Govern,
+Veriom,security_for_ai,True,0.0,0.0,0.0,0.0,low,nascent,2,,,,,in_scope_but_no_specific_capability_claimed
+Asher Informatics,ai_governance,True,30.0,25.0,25.0,50.0,medium,nascent,3,ai_governance_compliance,,Govern;Map,Govern,
+Magier AI,ai_governance,True,30.0,25.0,25.0,50.0,medium,nascent,2,ai_governance_compliance,,Govern;Map,Govern,
+Indora Labs,security_for_ai,True,22.0,20.0,25.0,20.0,medium,nascent,1,ai_data_protection;ai_governance_compliance,LLM02;LLM08,Govern;Map;Manage,Govern;Protect,
+Cognitive View,ai_governance,True,30.0,25.0,25.0,50.0,medium,early,4,ai_governance_compliance,,Govern;Map,Govern,
+Cynsta AI,security_for_ai,True,18.0,10.0,25.0,20.0,medium,nascent,1,agent_security,LLM01;LLM06,Manage,,description_too_short
+Graph Research Labs,ai_governance,True,35.0,25.0,25.0,75.0,medium,nascent,5,agent_security;ai_governance_compliance;ai_appsec,LLM01;LLM06,Govern;Map;Manage,Govern;Identify;Protect,
+AISafe Labs,ai_for_security,True,19.0,14.3,25.0,16.7,medium,nascent,1,ai_offensive_security,,,Identify,
+Kastra AI,security_for_ai,True,38.0,40.0,25.0,60.0,medium,nascent,0,ai_runtime_protection;agent_security;ai_identity_access;ai_governance_compliance,LLM01;LLM02;LLM05;LLM06;LLM07;LLM09,Govern;Map;Manage,Govern;Protect,
+ChillStack,adjacent,False,,,,,n/a,growth,8,,,,,
+Nuvoryn,out_of_scope,False,,,,,n/a,early,2,,,,,
+APERION,ai_governance,True,35.0,25.0,25.0,75.0,medium,early,2,ai_runtime_protection;agent_security;ai_governance_compliance,LLM01;LLM02;LLM05;LLM06;LLM07;LLM09,Govern;Map;Manage,Govern,
+AOCyber,adjacent,False,,,,,n/a,nascent,1,,,,,
+Alpha Q - Algoritmus,out_of_scope,False,,,,,n/a,nascent,2,,,,,
+ZYTRA TECHSOLUTIONS PRIVATE LIMITED,ai_governance,True,30.0,25.0,25.0,50.0,medium,early,0,ai_governance_compliance,,Govern;Map,Govern,
+Mangosta,ai_for_security,True,22.4,14.3,25.0,33.3,medium,nascent,0,autonomous_soc,,,Detect;Respond,
+GotYu,out_of_scope,False,,,,,n/a,nascent,10,,,,,
+SARTI - Striker AI Research Tech Inc,out_of_scope,False,,,,,n/a,early,0,,,,,
+Zenolabs AI,ai_governance,True,30.0,25.0,25.0,50.0,medium,nascent,4,ai_governance_compliance,,Govern;Map,Govern,
+Uindow,security_for_ai,True,24.0,10.0,25.0,50.0,medium,early,14,ai_runtime_protection,LLM01;LLM02;LLM05;LLM07;LLM09,Manage,,description_too_short
+Dheemai Inc,security_for_ai,True,16.0,10.0,25.0,10.0,medium,nascent,1,deepfake_content_integrity;ai_appsec,LLM09,Manage,Identify;Protect,
+ArcadianAI,adjacent,False,,,,,n/a,early,4,,,,,
+Metaworkers.AI,out_of_scope,False,,,,,n/a,nascent,0,ai_governance_compliance,,Govern;Map,Govern,
+Adeptiv AI,ai_governance,True,30.0,25.0,25.0,50.0,medium,early,2,ai_governance_compliance,,Govern;Map,Govern,name_description_mismatch(description subject 'Adpteiv AI')
+AIVault,adjacent,False,,,,,n/a,nascent,2,ai_red_teaming,LLM01;LLM04;LLM07;LLM09,Measure,,
+SYNCYR,ai_governance,True,30.0,25.0,25.0,50.0,medium,nascent,1,ai_governance_compliance;ai_threat_detection,,Govern;Map,Govern;Protect;Detect,
+Foresee Security,ai_for_security,True,25.7,14.3,25.0,50.0,medium,early,1,ai_governance_compliance;exposure_management,,Govern;Map,Govern;Identify;Protect,
+Indiesecurity,ai_for_security,True,19.0,14.3,25.0,16.7,medium,nascent,2,agent_security;ai_offensive_security,LLM01;LLM06,Manage,Identify,
+KB-eye,adjacent,False,,,,,n/a,early,8,,,,,
+DECTRAX,adjacent,False,,,,,n/a,early,2,ai_threat_detection,,,Protect;Detect,
+CyberX - The Ethical Hacking Services,security_for_ai,True,22.0,10.0,25.0,40.0,medium,early,5,ai_red_teaming;ai_offensive_security;ai_threat_detection,LLM01;LLM04;LLM07;LLM09,Measure,Identify;Protect;Detect,
+MantaRAI,ai_governance,True,30.0,25.0,25.0,50.0,medium,nascent,1,ai_governance_compliance,,Govern;Map,Govern,
+Mileva Security Labs,security_for_ai,True,0.0,0.0,0.0,0.0,low,nascent,3,,,,,description_too_short;in_scope_but_no_specific_capability_claimed
+YourFinestOut | IDC™,adjacent,False,,,,,n/a,nascent,2,model_supply_chain;ai_governance_compliance,LLM03;LLM04,Govern;Map;Measure,Govern,
+CloudEagle.ai,ai_governance,True,45.0,50.0,25.0,75.0,medium,early,5,ai_identity_access;ai_governance_compliance,LLM06,Govern;Map;Manage,Govern;Protect,missing_funding
+TrendAI,ai_for_security,True,28.1,28.6,25.0,33.3,medium,established,8,ai_data_protection;ai_threat_detection,LLM02;LLM08,Manage,Protect;Detect,missing_funding
+Blindsight,security_for_ai,True,0.0,0.0,0.0,0.0,low,nascent,1,,,,,description_too_short;missing_funding;in_scope_but_no_specific_capability_claimed
+AIBound,security_for_ai,True,18.0,10.0,25.0,20.0,medium,early,0,ai_discovery_posture,LLM03;LLM06,Govern;Map,,missing_funding
+QYNTARI,ai_governance,True,35.0,25.0,25.0,75.0,medium,nascent,0,agent_security;ai_governance_compliance;ai_threat_detection,LLM01;LLM06,Govern;Map;Manage,Govern;Protect;Detect,missing_funding
+Kihan,ai_governance,True,30.0,25.0,25.0,50.0,medium,nascent,0,ai_governance_compliance,,Govern;Map,Govern,missing_funding
+EPC Group,ai_governance,True,30.0,25.0,25.0,50.0,medium,growth,29,ai_governance_compliance;autonomous_soc,,Govern;Map,Govern;Detect;Respond,missing_funding
+PointGuard AI,security_for_ai,True,14.0,10.0,25.0,0.0,medium,early,5,ai_governance_compliance,,Govern;Map,Govern,missing_funding
+Autnhive,security_for_ai,True,22.0,20.0,25.0,20.0,medium,early,8,ai_data_protection;ai_governance_compliance;exposure_management,LLM02;LLM08,Govern;Map;Manage,Govern;Identify;Protect,missing_funding
+EBI Labs,out_of_scope,False,,,,,n/a,nascent,6,,,,,missing_funding
+Istreno,out_of_scope,False,,,,,n/a,early,3,ai_appsec,,,Identify;Protect,missing_funding
+"FERZ, Inc.",security_for_ai,True,20.0,20.0,25.0,10.0,medium,early,13,ai_identity_access;ai_governance_compliance,LLM06,Govern;Map;Manage,Govern;Protect,missing_funding
+Quantinuum,adjacent,False,,,,,n/a,growth,5,,,,,missing_funding;source_record_name_mismatch(slug 'honeywell-quantum-solutions': possible rename or merged record)
+Aura,ai_for_security,True,33.8,42.9,25.0,33.3,medium,growth,9,ai_identity_access;ai_data_protection;ai_threat_detection,LLM02;LLM06;LLM08,Govern;Manage,Protect;Detect,missing_funding
+Yubico,adjacent,False,,,,,n/a,growth,19,,,,,missing_funding
+Microsoft,out_of_scope,False,,,,,n/a,established,51,,,,,missing_funding
+Zscaler,adjacent,False,,,,,n/a,established,19,,,,,missing_funding
+IBM,out_of_scope,False,,,,,n/a,established,115,,,,,missing_funding
+ServiceNow,out_of_scope,False,,,,,n/a,established,22,,,,,missing_funding
+Gen,adjacent,False,,,,,n/a,established,4,ai_identity_access;ai_data_protection,LLM02;LLM06;LLM08,Govern;Manage,Protect,missing_funding
+Quantum Cyber,ai_for_security,True,22.4,14.3,25.0,33.3,low,early,0,ai_threat_detection,,,Protect;Detect,missing_funding;source_record_name_mismatch(slug 'mainz-biomed': possible rename or merged record)
+SEALRIGOBERTO GONZALEZ DE JESUS,adjacent,False,,,,,n/a,early,28,,,,,missing_funding;name_description_mismatch(description subject 'SEALSQ');source_record_name_mismatch(slug 'sealsq': possible rename or merged record)
+Akamai,adjacent,False,,,,,n/a,established,28,,,,,missing_funding
+Experian,out_of_scope,False,,,,,n/a,established,46,,,,,missing_funding
+Nokia,out_of_scope,False,,,,,n/a,established,161,,,,,missing_funding
+Rubrik,adjacent,False,,,,,n/a,scale_up,12,ai_discovery_posture;ai_data_protection,LLM02;LLM03;LLM06;LLM08,Govern;Map;Manage,Protect,missing_funding
+eMudhra,adjacent,False,,,,,n/a,growth,18,,,,,missing_funding

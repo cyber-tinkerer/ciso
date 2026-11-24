@@ -1,0 +1,6 @@
+# Raw third-party data (Crunchbase) is licensed; do not commit it to this public repo.
+data/raw/
+output/
+__pycache__/
+*.pyc
+.pytest_cache/
