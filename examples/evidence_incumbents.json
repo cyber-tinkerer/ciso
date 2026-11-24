@@ -1,0 +1,14 @@
+[
+  {"company": "Zscaler", "level": 2, "retrieved_on": "2026-11-24",
+   "source": "https://www.zscaler.com/blogs/product-insights/introducing-zscaler-ai-spm-secure-ai-models-and-data",
+   "text": "Zscaler AI-SPM provides deep visibility into all AI services, agents, and models deployed in your environment. Uncover AI deployments that may not be formally sanctioned or known to your IT or security teams."},
+  {"company": "Zscaler", "level": 2, "retrieved_on": "2026-11-24",
+   "source": "https://www.zscaler.com/ai-spm",
+   "text": "Identify misconfigurations, access risk, and vulnerabilities in AI agents, deployments, and retrieval-augmented generation (RAG) frameworks. Remediate data exposure, misconfigurations, and security risk. Meet standards and mandates like NIST AI RMF 600-1, EU AI Act, HIPAA, GDPR through continuous monitoring and compliance reporting. AI Guardrails."},
+  {"company": "Microsoft", "level": 2, "retrieved_on": "2026-11-24",
+   "source": "https://learn.microsoft.com/azure/defender-for-cloud/ai-threat-protection",
+   "text": "Defender for Cloud threat protection for AI workloads integrates with Azure AI Content Safety Prompt Shields and Microsoft's threat intelligence signals to deliver contextual and actionable security alerts for threats including data leakage, data poisoning, jailbreak, and credential theft."},
+  {"company": "Microsoft", "level": 2, "retrieved_on": "2026-11-24",
+   "source": "https://learn.microsoft.com/azure/defender-for-cloud/alerts-ai-workloads",
+   "text": "ASCII Smuggling prompt injection detected: a technique that lets an attacker send invisible instructions to an AI model."}
+]

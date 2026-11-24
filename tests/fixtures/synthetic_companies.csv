@@ -1,0 +1,9 @@
+name,description,website,founded_year,total_funding_usd,employee_range,last_funding_type,ipo_status,source
+Example Guardrail Co,Example Guardrail Co provides an AI firewall that blocks prompt injection and jailbreak attacks against LLM applications in real time.,https://guardrail.example,2024,12000000,11-50,seed,private,synthetic
+Example Agent Shield,Example Agent Shield secures AI agents and MCP servers with least privilege for every AI agent and audits agent actions.,https://agentshield.example,2025,3000000,1-10,pre_seed,private,synthetic
+Example SOC Agents,Example SOC Agents is a cybersecurity company that uses agentic AI to triage and investigate security alerts for SOC analysts.,https://socagents.example,2023,40000000,51-100,series_a,private,synthetic
+Example Governance,Example Governance offers an AI governance platform for EU AI Act compliance and AI risk management.,https://gov.example,2021,8000000,11-50,series_a,private,synthetic
+Example Firewall Corp,Example Firewall Corp sells next-generation network firewalls and VPN appliances.,https://fw.example,1999,,10001+,,public,synthetic
+Example Bakery,Example Bakery bakes sourdough bread and pastries for local cafes.,https://bakery.example,2010,,1-10,,private,synthetic
+Example Unknown,Example Unknown provides AI security.,,,,,,,synthetic
+Example Guardrail Co Duplicate,Duplicate record of the guardrail company.,https://www.guardrail.example/about,2024,12000000,11-50,seed,private,synthetic

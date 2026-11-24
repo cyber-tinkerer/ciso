@@ -1,0 +1,630 @@
+{
+  "summary": {
+    "companies_evaluated": 215,
+    "in_scope": 160,
+    "segments": {
+      "ai_for_security": 33,
+      "ai_governance": 55,
+      "security_for_ai": 72,
+      "out_of_scope": 28,
+      "adjacent": 27
+    },
+    "maturity_tiers_in_scope": {
+      "scale_up": 4,
+      "growth": 24,
+      "early": 93,
+      "nascent": 38,
+      "established": 1
+    },
+    "maturity_by_segment": {
+      "early|ai_for_security": 15,
+      "early|ai_governance": 37,
+      "early|security_for_ai": 41,
+      "established|ai_for_security": 1,
+      "growth|ai_for_security": 8,
+      "growth|ai_governance": 3,
+      "growth|security_for_ai": 13,
+      "nascent|ai_for_security": 7,
+      "nascent|ai_governance": 14,
+      "nascent|security_for_ai": 17,
+      "scale_up|ai_for_security": 2,
+      "scale_up|ai_governance": 1,
+      "scale_up|security_for_ai": 1
+    },
+    "capability_domain_prevalence": {
+      "ai_governance_compliance": 76,
+      "agent_security": 23,
+      "ai_identity_access": 11,
+      "ai_data_protection": 10,
+      "ai_threat_detection": 9,
+      "ai_discovery_posture": 9,
+      "ai_red_teaming": 9,
+      "ai_runtime_protection": 9,
+      "autonomous_soc": 8,
+      "ai_offensive_security": 5,
+      "exposure_management": 3,
+      "ai_appsec": 3,
+      "deepfake_content_integrity": 2
+    },
+    "owasp_llm_2025_claimed_coverage_among_security_for_ai": {
+      "LLM01": {
+        "companies": 32,
+        "pct": 44.4,
+        "risk": "Prompt Injection"
+      },
+      "LLM02": {
+        "companies": 14,
+        "pct": 19.4,
+        "risk": "Sensitive Information Disclosure"
+      },
+      "LLM03": {
+        "companies": 4,
+        "pct": 5.6,
+        "risk": "Supply Chain"
+      },
+      "LLM04": {
+        "companies": 8,
+        "pct": 11.1,
+        "risk": "Data and Model Poisoning"
+      },
+      "LLM05": {
+        "companies": 9,
+        "pct": 12.5,
+        "risk": "Improper Output Handling"
+      },
+      "LLM06": {
+        "companies": 28,
+        "pct": 38.9,
+        "risk": "Excessive Agency"
+      },
+      "LLM07": {
+        "companies": 16,
+        "pct": 22.2,
+        "risk": "System Prompt Leakage"
+      },
+      "LLM08": {
+        "companies": 7,
+        "pct": 9.7,
+        "risk": "Vector and Embedding Weaknesses"
+      },
+      "LLM09": {
+        "companies": 18,
+        "pct": 25.0,
+        "risk": "Misinformation"
+      },
+      "LLM10": {
+        "companies": 0,
+        "pct": 0.0,
+        "risk": "Unbounded Consumption"
+      }
+    },
+    "capability_index": {
+      "median": 22.4,
+      "min": 0.0,
+      "max": 55.0
+    },
+    "confidence": {
+      "medium": 131,
+      "low": 29
+    },
+    "data_quality_flags": {
+      "missing_funding": 27,
+      "in_scope_but_no_specific_capability_claimed": 26,
+      "description_too_short": 10,
+      "missing_founded_year": 3,
+      "missing_employee_count": 3,
+      "source_record_name_mismatch": 3,
+      "name_description_mismatch": 2
+    }
+  },
+  "validation": {
+    "labelled": 215,
+    "matched": 215,
+    "unmatched_labels": [],
+    "all": {
+      "n": 215,
+      "segment_accuracy": 0.8093023255813954,
+      "in_scope_precision": 0.91875,
+      "in_scope_recall": 0.9607843137254902,
+      "in_scope_f1": 0.939297124600639,
+      "in_scope_accuracy": 0.9116279069767442,
+      "per_segment": {
+        "security_for_ai": {
+          "support": 72,
+          "precision": 0.8472222222222222,
+          "recall": 0.8472222222222222,
+          "f1": 0.8472222222222222
+        },
+        "ai_for_security": {
+          "support": 37,
+          "precision": 0.9696969696969697,
+          "recall": 0.8648648648648649,
+          "f1": 0.9142857142857143
+        },
+        "ai_governance": {
+          "support": 44,
+          "precision": 0.7636363636363637,
+          "recall": 0.9545454545454546,
+          "f1": 0.8484848484848485
+        },
+        "adjacent": {
+          "support": 38,
+          "precision": 0.7777777777777778,
+          "recall": 0.5526315789473685,
+          "f1": 0.6461538461538462
+        },
+        "out_of_scope": {
+          "support": 24,
+          "precision": 0.6428571428571429,
+          "recall": 0.75,
+          "f1": 0.6923076923076924
+        }
+      },
+      "segment_macro_f1": 0.7896908646908647,
+      "confusion": {
+        "adjacent->ai_governance": 5,
+        "adjacent->out_of_scope": 6,
+        "adjacent->security_for_ai": 6,
+        "ai_for_security->out_of_scope": 1,
+        "ai_for_security->security_for_ai": 4,
+        "ai_governance->out_of_scope": 1,
+        "ai_governance->security_for_ai": 1,
+        "out_of_scope->adjacent": 4,
+        "out_of_scope->ai_governance": 2,
+        "security_for_ai->adjacent": 2,
+        "security_for_ai->ai_for_security": 1,
+        "security_for_ai->ai_governance": 6,
+        "security_for_ai->out_of_scope": 2
+      }
+    },
+    "dev": {
+      "n": 108,
+      "segment_accuracy": 0.8425925925925926,
+      "in_scope_precision": 0.9125,
+      "in_scope_recall": 0.9733333333333334,
+      "in_scope_f1": 0.9419354838709678,
+      "in_scope_accuracy": 0.9166666666666666,
+      "per_segment": {
+        "security_for_ai": {
+          "support": 32,
+          "precision": 0.8571428571428571,
+          "recall": 0.9375,
+          "f1": 0.8955223880597014
+        },
+        "ai_for_security": {
+          "support": 16,
+          "precision": 1.0,
+          "recall": 0.8125,
+          "f1": 0.896551724137931
+        },
+        "ai_governance": {
+          "support": 27,
+          "precision": 0.84375,
+          "recall": 1.0,
+          "f1": 0.9152542372881356
+        },
+        "adjacent": {
+          "support": 23,
+          "precision": 0.8571428571428571,
+          "recall": 0.5217391304347826,
+          "f1": 0.6486486486486486
+        },
+        "out_of_scope": {
+          "support": 10,
+          "precision": 0.6428571428571429,
+          "recall": 0.9,
+          "f1": 0.75
+        }
+      },
+      "segment_macro_f1": 0.8211953996268834,
+      "confusion": {
+        "adjacent->ai_governance": 5,
+        "adjacent->out_of_scope": 4,
+        "adjacent->security_for_ai": 2,
+        "ai_for_security->security_for_ai": 3,
+        "out_of_scope->adjacent": 1,
+        "security_for_ai->adjacent": 1,
+        "security_for_ai->out_of_scope": 1
+      }
+    },
+    "heldout": {
+      "n": 107,
+      "segment_accuracy": 0.7757009345794392,
+      "in_scope_precision": 0.925,
+      "in_scope_recall": 0.9487179487179487,
+      "in_scope_f1": 0.9367088607594937,
+      "in_scope_accuracy": 0.9065420560747663,
+      "per_segment": {
+        "security_for_ai": {
+          "support": 40,
+          "precision": 0.8378378378378378,
+          "recall": 0.775,
+          "f1": 0.8051948051948051
+        },
+        "ai_for_security": {
+          "support": 21,
+          "precision": 0.95,
+          "recall": 0.9047619047619048,
+          "f1": 0.9268292682926829
+        },
+        "ai_governance": {
+          "support": 17,
+          "precision": 0.6521739130434783,
+          "recall": 0.8823529411764706,
+          "f1": 0.75
+        },
+        "adjacent": {
+          "support": 15,
+          "precision": 0.6923076923076923,
+          "recall": 0.6,
+          "f1": 0.6428571428571429
+        },
+        "out_of_scope": {
+          "support": 14,
+          "precision": 0.6428571428571429,
+          "recall": 0.6428571428571429,
+          "f1": 0.6428571428571429
+        }
+      },
+      "segment_macro_f1": 0.7535476718403548,
+      "confusion": {
+        "adjacent->out_of_scope": 2,
+        "adjacent->security_for_ai": 4,
+        "ai_for_security->out_of_scope": 1,
+        "ai_for_security->security_for_ai": 1,
+        "ai_governance->out_of_scope": 1,
+        "ai_governance->security_for_ai": 1,
+        "out_of_scope->adjacent": 3,
+        "out_of_scope->ai_governance": 2,
+        "security_for_ai->adjacent": 1,
+        "security_for_ai->ai_for_security": 1,
+        "security_for_ai->ai_governance": 6,
+        "security_for_ai->out_of_scope": 1
+      }
+    },
+    "high_confidence_labels_only": {
+      "n": 194,
+      "segment_accuracy": 0.845360824742268,
+      "in_scope_precision": 0.9315068493150684,
+      "in_scope_recall": 0.9784172661870504,
+      "in_scope_f1": 0.9543859649122808,
+      "in_scope_accuracy": 0.9329896907216495,
+      "per_segment": {
+        "security_for_ai": {
+          "support": 64,
+          "precision": 0.8870967741935484,
+          "recall": 0.859375,
+          "f1": 0.8730158730158729
+        },
+        "ai_for_security": {
+          "support": 31,
+          "precision": 0.967741935483871,
+          "recall": 0.967741935483871,
+          "f1": 0.967741935483871
+        },
+        "ai_governance": {
+          "support": 44,
+          "precision": 0.7924528301886793,
+          "recall": 0.9545454545454546,
+          "f1": 0.865979381443299
+        },
+        "adjacent": {
+          "support": 31,
+          "precision": 0.7916666666666666,
+          "recall": 0.6129032258064516,
+          "f1": 0.6909090909090909
+        },
+        "out_of_scope": {
+          "support": 24,
+          "precision": 0.75,
+          "recall": 0.75,
+          "f1": 0.75
+        }
+      },
+      "segment_macro_f1": 0.8295292561704267,
+      "confusion": {
+        "adjacent->ai_governance": 3,
+        "adjacent->out_of_scope": 4,
+        "adjacent->security_for_ai": 5,
+        "ai_for_security->security_for_ai": 1,
+        "ai_governance->out_of_scope": 1,
+        "ai_governance->security_for_ai": 1,
+        "out_of_scope->adjacent": 4,
+        "out_of_scope->ai_governance": 2,
+        "security_for_ai->adjacent": 1,
+        "security_for_ai->ai_for_security": 1,
+        "security_for_ai->ai_governance": 6,
+        "security_for_ai->out_of_scope": 1
+      }
+    },
+    "errors": [
+      {
+        "name": "Kong",
+        "gold": "adjacent",
+        "pred": "ai_governance",
+        "split": "dev",
+        "label_confidence": "high"
+      },
+      {
+        "name": "Bespin Global",
+        "gold": "adjacent",
+        "pred": "security_for_ai",
+        "split": "heldout",
+        "label_confidence": "high"
+      },
+      {
+        "name": "Inforcer",
+        "gold": "adjacent",
+        "pred": "out_of_scope",
+        "split": "dev",
+        "label_confidence": "high"
+      },
+      {
+        "name": "Tigera",
+        "gold": "security_for_ai",
+        "pred": "out_of_scope",
+        "split": "dev",
+        "label_confidence": "low"
+      },
+      {
+        "name": "CLUSH",
+        "gold": "adjacent",
+        "pred": "out_of_scope",
+        "split": "dev",
+        "label_confidence": "high"
+      },
+      {
+        "name": "JetStream Security",
+        "gold": "security_for_ai",
+        "pred": "ai_governance",
+        "split": "heldout",
+        "label_confidence": "high"
+      },
+      {
+        "name": "Tolmo",
+        "gold": "ai_for_security",
+        "pred": "security_for_ai",
+        "split": "dev",
+        "label_confidence": "low"
+      },
+      {
+        "name": "BlackFog",
+        "gold": "ai_for_security",
+        "pred": "security_for_ai",
+        "split": "heldout",
+        "label_confidence": "low"
+      },
+      {
+        "name": "SpeedyCloud",
+        "gold": "adjacent",
+        "pred": "security_for_ai",
+        "split": "dev",
+        "label_confidence": "high"
+      },
+      {
+        "name": "Barndoor AI",
+        "gold": "security_for_ai",
+        "pred": "ai_governance",
+        "split": "heldout",
+        "label_confidence": "high"
+      },
+      {
+        "name": "Trent AI",
+        "gold": "ai_for_security",
+        "pred": "security_for_ai",
+        "split": "dev",
+        "label_confidence": "high"
+      },
+      {
+        "name": "Arcjet",
+        "gold": "security_for_ai",
+        "pred": "adjacent",
+        "split": "heldout",
+        "label_confidence": "low"
+      },
+      {
+        "name": "Forest",
+        "gold": "out_of_scope",
+        "pred": "adjacent",
+        "split": "dev",
+        "label_confidence": "high"
+      },
+      {
+        "name": "Vero Security",
+        "gold": "security_for_ai",
+        "pred": "ai_for_security",
+        "split": "heldout",
+        "label_confidence": "high"
+      },
+      {
+        "name": "Nexchain",
+        "gold": "out_of_scope",
+        "pred": "adjacent",
+        "split": "heldout",
+        "label_confidence": "high"
+      },
+      {
+        "name": "Peridot",
+        "gold": "security_for_ai",
+        "pred": "ai_governance",
+        "split": "heldout",
+        "label_confidence": "high"
+      },
+      {
+        "name": "Willow",
+        "gold": "security_for_ai",
+        "pred": "adjacent",
+        "split": "dev",
+        "label_confidence": "high"
+      },
+      {
+        "name": "Sai Security Printers",
+        "gold": "out_of_scope",
+        "pred": "adjacent",
+        "split": "heldout",
+        "label_confidence": "high"
+      },
+      {
+        "name": "31 CONCEPT",
+        "gold": "adjacent",
+        "pred": "out_of_scope",
+        "split": "heldout",
+        "label_confidence": "low"
+      },
+      {
+        "name": "DAXA",
+        "gold": "security_for_ai",
+        "pred": "out_of_scope",
+        "split": "heldout",
+        "label_confidence": "high"
+      },
+      {
+        "name": "Dam Secure",
+        "gold": "ai_for_security",
+        "pred": "security_for_ai",
+        "split": "dev",
+        "label_confidence": "low"
+      },
+      {
+        "name": "Preamble",
+        "gold": "security_for_ai",
+        "pred": "ai_governance",
+        "split": "heldout",
+        "label_confidence": "high"
+      },
+      {
+        "name": "Asenion",
+        "gold": "ai_governance",
+        "pred": "security_for_ai",
+        "split": "heldout",
+        "label_confidence": "high"
+      },
+      {
+        "name": "Verapath",
+        "gold": "security_for_ai",
+        "pred": "ai_governance",
+        "split": "heldout",
+        "label_confidence": "high"
+      },
+      {
+        "name": "HoundDog.ai",
+        "gold": "adjacent",
+        "pred": "out_of_scope",
+        "split": "dev",
+        "label_confidence": "high"
+      },
+      {
+        "name": "Aeye Security Lab",
+        "gold": "adjacent",
+        "pred": "security_for_ai",
+        "split": "heldout",
+        "label_confidence": "high"
+      },
+      {
+        "name": "SunnyData",
+        "gold": "adjacent",
+        "pred": "ai_governance",
+        "split": "dev",
+        "label_confidence": "high"
+      },
+      {
+        "name": "HAIEC",
+        "gold": "ai_governance",
+        "pred": "out_of_scope",
+        "split": "heldout",
+        "label_confidence": "high"
+      },
+      {
+        "name": "Vivox AI",
+        "gold": "ai_for_security",
+        "pred": "out_of_scope",
+        "split": "heldout",
+        "label_confidence": "low"
+      },
+      {
+        "name": "Keyboard",
+        "gold": "security_for_ai",
+        "pred": "ai_governance",
+        "split": "heldout",
+        "label_confidence": "high"
+      },
+      {
+        "name": "DDAT Holdings",
+        "gold": "out_of_scope",
+        "pred": "ai_governance",
+        "split": "heldout",
+        "label_confidence": "high"
+      },
+      {
+        "name": "QueryLift",
+        "gold": "adjacent",
+        "pred": "security_for_ai",
+        "split": "heldout",
+        "label_confidence": "high"
+      },
+      {
+        "name": "Regbase",
+        "gold": "out_of_scope",
+        "pred": "ai_governance",
+        "split": "heldout",
+        "label_confidence": "high"
+      },
+      {
+        "name": "Graph Research Labs",
+        "gold": "adjacent",
+        "pred": "ai_governance",
+        "split": "dev",
+        "label_confidence": "high"
+      },
+      {
+        "name": "Uindow",
+        "gold": "adjacent",
+        "pred": "security_for_ai",
+        "split": "heldout",
+        "label_confidence": "low"
+      },
+      {
+        "name": "CyberX - The Ethical Hacking Services",
+        "gold": "adjacent",
+        "pred": "security_for_ai",
+        "split": "dev",
+        "label_confidence": "high"
+      },
+      {
+        "name": "YourFinestOut | IDC\u2122",
+        "gold": "out_of_scope",
+        "pred": "adjacent",
+        "split": "heldout",
+        "label_confidence": "high"
+      },
+      {
+        "name": "CloudEagle.ai",
+        "gold": "adjacent",
+        "pred": "ai_governance",
+        "split": "dev",
+        "label_confidence": "low"
+      },
+      {
+        "name": "EPC Group",
+        "gold": "adjacent",
+        "pred": "ai_governance",
+        "split": "dev",
+        "label_confidence": "low"
+      },
+      {
+        "name": "Microsoft",
+        "gold": "adjacent",
+        "pred": "out_of_scope",
+        "split": "heldout",
+        "label_confidence": "low"
+      },
+      {
+        "name": "ServiceNow",
+        "gold": "adjacent",
+        "pred": "out_of_scope",
+        "split": "dev",
+        "label_confidence": "high"
+      }
+    ]
+  }
+}
